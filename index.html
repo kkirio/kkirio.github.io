@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="robots" content="index, follow">
+	<meta name="keywords" content="Ken Kendall Kirio" > 
+	<meta name="description" content="Ken Kirio Personal Page" > 
+	<meta name="author" content="Ken Kirio">
+
+	<title>Ken Kirio</title>
+	<link href="css/main.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+   
+	<script type="text/javascript" src="js/script.js"></script>   
+
+
+</head>
+
+
+<!-- TODO: javascript for navigation, and responsive menus-->
+<body>
+	<div class="page">
+		<div class="nav" id="navContainer">
+			<div class="nav-left">
+				<img class="profile-picture" id="profPic" src="img/profile.jpg"/>
+				<nav>
+					<a href="index.html">ABOUT</a><br>
+					<a href="#experience">EXPERIENCE</a><br>
+					<a href="#projects">PROJECTS</a><br>
+					<a href="cv.pdf">CV</a><br>
+				</nav>
+			</div>
+			<div class="nav-right">
+				<button id="menu-btn" type="button">
+					<div class="menu-icon"></div>
+					<div class="menu-icon"></div>
+					<div class="menu-icon"></div>
+			 </button>
+		 	</div>
+	   	</div>
+		<a name="home"></a>
+		<div class="one-column">
+			<div class="home-section paddings">
+				<p>
+					<h1 id="home-title">KEN <span id="text-primary">KIRIO</span></h1>
+					<span class="title-text"> WALTHAM, MA 02453 &middot KRIN.KIRIO@GMAIL.COM </span>
+				</p>
+				<p class="title-text">
+					BS in Computer Science & Biochemistry <br>
+					Brandeis University
+				</p>
+				<ul class="inline-list">
+					<li>
+						<a href="mailto:krin.kirio@gmail.com"><span class="fa fa-envelope-square" style="font-size:42px;"> </span></a>
+				 	</li>
+					<li>
+						<a href="https://www.linkedin.com/in/krinkirio/"><span class="fa fa-linkedin-square" style="font-size: 42px;"></span></a>
+					</li>
+			 	</ul>
+		 	</div>
+
+			<a name="experience"></a>
+
+			<div class="paddings">
+				<h2> EXPERIENCE </h2>
+
+				<p> <span class="position-title">Data Scientist</span>&emsp;  Brandeis University, May 2021 - present <br>
+				- Bioinformatics data science studying deep transcriptomic datasets <br>
+				- Create and perform custom pipelines in Linux <br> 
+				- Analysis and vizualization in R: principal component analysis, differential analysis, cluster analysis <br>
+				- Awarded grants totaling $16,000 from Quantitative Biology Research Community, Blavatnik Family
+				Foundation, Gordon Science Fellowship </p>
+
+				<p> <span class="position-title">Computer Science Instructor</span>&emsp; Juni Learning, May 2021 - Feb 2023 </span> <br>
+				- Teach weekly one-on-one coding lessons to K-12 students in Python, Java, Data Structures & Algorithms using a project-based curriculum <br>
+				- Maintain records covering multiple courses and skill levels, ranging from 5-12 students per week </p>
+			</div>
+
+			<a name="projects"></a>
+
+			<div class="paddings">
+				<h2> PROJECTS </h2>
+
+				<h4> SOFTWARE TESTING </h4>
+
+				<p> <a href="">Behavior-Driven Design Automated Testing</a> <br>
+				Automated tests for a simple class which converts metric/Imperial units. Written with Cucumber in Java. </p>
+
+				<p> <a href="">Automated Web Testing</a> <br>
+				Automated tests for the Google Calculator. Written with Cucumber and Selenium WebDriver in Java. </p>
+
+				<h4> WEB DEVELOPMENT </h4>
+
+				<p>  <a href="">Brandeis University Sports Complex Website</a> <br>
+					<img class="project-picture" id="sports-complex" src="img/sports-complex.png"/> <br>
+				Mock website for the Brandeis Sports Complex which allows users to learn about the facilities, programs, and events, and sign up for a membership. Admin can add new facilities, programs, and events and reply to messages submitted through the contact form. <br>
+				Includes user authentication database management. <br>
+				Written in Javascript (Express.js) with MongoDB backend. <br>	
+				</p>
+				
+				<p>  <a href="">Brandeis University Student and Alumni Association Website</a> <br>
+					<img class="project-picture" id="busaa" src="img/busaa.png"/> <br>
+				Mock website for the BUSAA where its can members connect with each other, share
+				information about job opportunities, post events and communicate through a chat feature. <br>
+				Includes user authentication, RESTful API, database management. <br>
+				Written in Javascript (Express.js) with MongoDB backend. <br>	
+				</p>
+
+<!--
+					<p>  <a href="">General Tutoring Website</a> <br>
+					<img class="project-picture" id="gt" src="img/gt.jpg"/> <br>
+				HOW TO DESCRIBE THIS </p>
+-->
+
+				<h4> MACHINE LEARNING </h4>
+
+				<p> <a href="">Drug Toxicity Deep Learning Model</a> <br>
+				Graph Attention Network (GAT) trained to identify 12 toxicity characteristics based on molecular structure. <br> Achieved ROC AUC of 0.754 on test data, highest in the class. </p>
+
+				<p> <a href="">Disease Diagnosis Deep Learning Model</a> <br>
+				Fine-tuning of the BERT Large Language Model (LLM) to diagnose Acute Respiratory Distress Syndrome (ARDS) based on medical notes. </p>
+
+				<p> <a href="">Automated Transcription Deep Learning Model</a> <br>
+				Convolutional Neural Network (CNN) trained to transcribe speech based on audio recording. </p>
+
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+
+
+</html>

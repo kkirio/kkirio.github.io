@@ -7,6 +7,11 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+.projects a {
+    text-decoration: none;
     color: #ba3f1d; 
 }
 
@@ -140,19 +145,25 @@ nav a {
     justify-content: center;
 }
 
+.home-section p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.home-section .current-job {
+    margin-bottom: 1.5em;
+}
+
+.home-section .current-job a {
+    color: rgb(8, 8, 192)
+}
+
 .projects {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-
-.home-section p {
-    display: flex;
-
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 .yellow, a:hover span, a:hover {
